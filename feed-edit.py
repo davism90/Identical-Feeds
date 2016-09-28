@@ -19,7 +19,7 @@ flag = 0
 rss_url_feed_dict = {}
 rss_url_feed_non_repeat_dict = {}
 
-with open ("/home/piglet/Documents/feed_list.tsv") as inputfile:
+with open ("FILE_HERE") as inputfile:
     for line in inputfile:
         if start_line >= 1:
             url = line[7:]
